@@ -17,11 +17,15 @@
         }
 
         .name,
-        .terminal-command {
+        .terminal-command,
+        .json-bracket,
+        .json-value {
             color: rgb(43, 177, 93);
         }
 
-        .company {
+        .company,
+        .json-quote,
+        .json-field {
             color: rgb(224, 219, 77);
         }
     </style>
@@ -33,6 +37,11 @@
             <span class="hash">#</span> <span class="name">Atouch Mohamed</span> in <span class="company">~/Careers/Linkry</span>
             <br />
             <span class="terminal-arrow">&#8627;</span> <span class="terminal-command">cat</span> current-position.json
+            <br />
+            <pre><span class="json-bracket">{</span>
+    <span class="json-quote">"</span><span class="json-field">mobile</span><span class="json-quote">"</span>: <span class="json-quote">"</span><span class="json-value">Android</span><span class="json-quote">"</span>,
+    <span class="json-quote">"</span><span class="json-field">backend</span><span class="json-quote">"</span>: <span class="json-quote">"</span><span class="json-value">NodeJs</span><span class="json-quote">"</span>
+<span class="json-bracket">}</span></pre>
         </p>
     </div>
 </body>
